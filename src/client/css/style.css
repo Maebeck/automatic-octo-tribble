@@ -1,3 +1,17 @@
+footer {
+  position: fixed;
+  height: 1.5em;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../resources/jets.jpg);
