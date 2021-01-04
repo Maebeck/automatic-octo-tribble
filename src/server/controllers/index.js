@@ -1,9 +1,9 @@
 // export all controllers
 const router = require('express').Router();
 
-const jetRoutes = require('./jetRoutes');
-
-
-router.use('/jets', jetRoutes);
+const apiroutes = require('./api');
+const viewroutes = require('./home-routes');
+router.use('/', viewroutes);
+router.use('/api', apiroutes);
 
 module.exports = router;
