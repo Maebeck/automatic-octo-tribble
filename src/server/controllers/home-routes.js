@@ -1,15 +1,15 @@
 const router = require('express').Router();
 // const {Jets} = require('./models');
 
-router.get('/freight', async (req, res) => {
+router.get('/private', async (req, res) => {
     try {
       // const allJets = await Jets.findAll({
         
       // });
       // const jets = allJets.map(jet => jet.get({plane: true}));
   
-      // res.render('freight-home', {freightOptions: [...jets]});
-//       res.render('freight-home', {freightOptions: [
+      // res.render('private-home', {privateOptions: [...jets]});
+//       res.render('private-home', {privateOptions: [
 //         {imageUrl: "/resources/freight-1.jpg",
 //         name: "ATR 42",
 //         description: `
